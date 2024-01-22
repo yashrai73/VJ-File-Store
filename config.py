@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot 
+# Ask anything on telegram @yashra_i1
 
 
 import re
@@ -11,9 +11,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot 
+# Ask Doubt on telegram @yashra_i1
 
 
 id_pattern = re.compile(r'^.\d+$')
@@ -25,9 +25,9 @@ def is_enabled(value, default):
     else:
         return default
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot
+# Ask Doubt on telegram @yashra_i1
       
 # Owner Information
 API_ID = int(environ.get("API_ID", "28185081"))
@@ -40,9 +40,9 @@ CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
 DB_URI = environ.get("DB_URI", "mongodb+srv://rai661yash:gKBcvrcDlW4XIXM1@cluster0.1dexx.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot
+# Ask Doubt on telegram @yashra_i1
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
@@ -57,9 +57,9 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "21600")) # Time in Secon
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001804542823"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002082411876')).split()]
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot
+# Ask Doubt on telegram @yashra_i1
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -69,9 +69,9 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @yashra_i1
+# Subscribe YouTube Channel For Amazing Bot
+# Ask Doubt on telegram @yashra_i1
 
 # File Stream Config
 class Var(object):
