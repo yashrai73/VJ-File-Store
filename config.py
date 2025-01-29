@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28185081"))
 API_HASH = environ.get("API_HASH", "7e1b7a01628c7322d2ac6a0bc29e3ed0")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://postimg.cc/CdvMYhq0')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1891305795').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Filemeri_bot") # without @
 PORT = environ.get("PORT", "8080")
